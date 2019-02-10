@@ -1,0 +1,164 @@
+body {
+  background: #dd3f3e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 20px auto;
+}
+
+.stub, .check {
+  box-sizing: border-box;
+}
+
+.stub {
+  background:orangered;
+  height: 250px;
+  width: 250px;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 20px solid indianred;
+  border-left: 20px solid indianred;
+  width: 0;
+}
+
+.after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 20px solid indianred;
+  border-left: 20px solid indianred;
+  width: 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Copperplate;
+}
+
+.line {
+  display: block;
+  background: white;
+  height: 40px;
+  width: 3px;
+  margin: 0 20px;
+}
+
+.num {
+  font-size: 15px;
+  font-family: Copperplate;
+}
+
+span {
+  color: white;
+}
+
+.number {
+  position: absolute;
+  left: 50px;
+  font-size: 150px;
+}
+
+.invite {
+  position: absolute;
+  left: 150px;
+  bottom: 50px;
+  color: white;
+  width: 20%;
+  font-family: Copperplate;
+  font-size: 21px;
+}
+
+.before {
+  content: '';
+  background: white;
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin-bottom: 5px;
+}
+
+.check {
+  background: dodgerblue;
+  height: 250px;
+  width: 450px;
+  padding: 40px;
+  position: relative;
+}
+
+.before {
+   content: '';
+   position: absolute;
+   top: 0; left: 0;
+   border-top: 30px solid #dd3f3e;
+   border-right: 30px solid white;
+   width: 0;
+ }
+.after {
+   content: '';
+   position: absolute;
+   bottom: 0; left: 0;
+   border-bottom: 30px solid #dd3f3e;
+   border-right: 30px solid white;
+   width: 0;
+ }
+
+.big {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: .8em;
+  color: white;
+  font-family: Copperplate;
+}
+.number {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: #ef5658;
+  font-size: 40px;
+}
+.info {
+  display: flex;
+  justify-content: flex-start;
+
+  font-size: 25px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+section {
+  margin-right: 50px;
+}
+.before {
+   content: '';
+   background: #ef5658;
+   display: block;
+   width: 40px;
+   height: 3px;
+   margin-bottom: 5px;
+ }
+.title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
