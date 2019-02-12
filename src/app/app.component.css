@@ -1,5 +1,5 @@
 body {
-  background-color: #dd3f3e;
+  background-color: black;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
 html{
   height: 100vh;
   width: 100vh;
-  background-color: #dd3f3e;
+  background-color: orangered;
 }
 
 .ticket {
@@ -33,7 +33,7 @@ html{
   box-sizing: border-box;
 }
 .stub {
-  background: #ef5658;
+  background: orangered;
   height: 250px;
   width: 250px;
   color: white;
@@ -59,42 +59,46 @@ html{
   align-items: center;
   height: 40px;
   text-transform: uppercase;
+  font-family: Copperplate;
 }
 .stub .top .line {
   display: block;
-  background: #fff;
+  background: black;
   height: 40px;
   width: 3px;
   margin: 0 20px;
 }
 .stub .top .num {
-  font-size: 10px;
+  font-size: 15px;
 }
 .stub .top .num span {
-  color: #000;
+  color: white;
 }
 .stub .number {
   position: absolute;
   left: 40px;
   font-size: 150px;
+  color: black;
 }
 .stub .invite {
   position: absolute;
   left: 150px;
   bottom: 45px;
-  color: #000;
+  color: white;
   width: 20%;
+  font-size: 25px;
+  font-family: Copperplate;
 }
 .stub .invite:before {
   content: '';
-  background: #fff;
+  background: black;
   display: block;
   width: 40px;
   height: 3px;
   margin-bottom: 5px;
 }
 .check {
-  background: #fff;
+  background: dodgerblue;
   height: 250px;
   width: 450px;
   padding: 40px;
@@ -105,8 +109,8 @@ html{
   position: absolute;
   top: 0;
   left: 0;
-  border-top: 20px solid #dd3f3e;
-  border-right: 20px solid #fff;
+  border-top: 20px solid orangered;
+  border-right: 20px solid white;
   width: 0;
 }
 .check:after {
@@ -114,20 +118,22 @@ html{
   position: absolute;
   bottom: 0;
   left: 0;
-  border-bottom: 20px solid #dd3f3e;
-  border-right: 20px solid #fff;
+  border-bottom: 20px solid orangered;
+  border-right: 20px solid white;
   width: 0;
 }
 .check .big {
-  font-size: 80px;
+  font-size: 85px;
+  font-family: Copperplate;
   font-weight: 900;
   line-height: 0.8em;
+  color: black;
 }
 .check .number {
   position: absolute;
   top: 50px;
   right: 50px;
-  color: #ef5658;
+  color: black;
   font-size: 40px;
 }
 .check .info {
@@ -136,13 +142,14 @@ html{
   font-size: 12px;
   margin-top: 20px;
   width: 100%;
+  color: white;
 }
 .check .info section {
   margin-right: 50px;
 }
 .check .info section:before {
   content: '';
-  background: #ef5658;
+  background: white;
   display: block;
   width: 40px;
   height: 3px;
