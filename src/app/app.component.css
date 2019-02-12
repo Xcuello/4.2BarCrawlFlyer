@@ -149,7 +149,7 @@ html{
 }
 .check .info section:before {
   content: '';
-  background: white;
+  background: black;
   display: block;
   width: 40px;
   height: 3px;
