@@ -63,7 +63,7 @@ html{
 }
 .stub .top .line {
   display: block;
-  background: black;
+  background: white;
   height: 40px;
   width: 3px;
   margin: 0 20px;
@@ -78,7 +78,7 @@ html{
   position: absolute;
   left: 40px;
   font-size: 150px;
-  color: black;
+  color: white;
 }
 .stub .invite {
   position: absolute;
@@ -91,7 +91,7 @@ html{
 }
 .stub .invite:before {
   content: '';
-  background: black;
+  background: white;
   display: block;
   width: 40px;
   height: 3px;
@@ -127,13 +127,13 @@ html{
   font-family: Copperplate;
   font-weight: 900;
   line-height: 0.8em;
-  color: black;
+  color: white;
 }
 .check .number {
   position: absolute;
   top: 50px;
   right: 50px;
-  color: black;
+  color: white;
   font-size: 40px;
 }
 .check .info {
@@ -149,7 +149,7 @@ html{
 }
 .check .info section:before {
   content: '';
-  background: black;
+  background: white;
   display: block;
   width: 40px;
   height: 3px;
