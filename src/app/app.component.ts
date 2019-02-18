@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '4.2BarCrawlFlyer';
+  title = '4.2 Bar Crawl Ticket';
 }
