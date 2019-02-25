@@ -26,6 +26,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to 4.2 Bar Crawl Ticket!');
+    expect(compiled.querySelector('h1').textContent).toContain('4.2 Bar Crawl Ticket');
   });
 });
